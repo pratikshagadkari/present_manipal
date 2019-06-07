@@ -1,0 +1,55 @@
+{
+  "project_info": {
+    "project_number": "1022276958517",
+    "firebase_url": "https://present-manipal-67fc9.firebaseio.com",
+    "project_id": "present-manipal-67fc9",
+    "storage_bucket": "present-manipal-67fc9.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:1022276958517:android:1e34c931f5163aff",
+        "android_client_info": {
+          "package_name": "manipal.com.present_manipal"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "1022276958517-o93gnq6rgoa07a3pn554u9er5dre4a0o.apps.googleusercontent.com",
+          "client_type": 1,
+          "android_info": {
+            "package_name": "manipal.com.present_manipal",
+            "certificate_hash": "98d401bb35f31307d67d69c31d6d1f35d2660051"
+          }
+        },
+        {
+          "client_id": "1022276958517-b07oi4ardlikikefp5ts6e3phhh5ol24.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyDdLnYFoepNlhZyobaXI7K4rEuen2WWVOs"
+        }
+      ],
+      "services": {
+        "analytics_service": {
+          "status": 1
+        },
+        "appinvite_service": {
+          "status": 2,
+          "other_platform_oauth_client": [
+            {
+              "client_id": "1022276958517-b07oi4ardlikikefp5ts6e3phhh5ol24.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        },
+        "ads_service": {
+          "status": 2
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}

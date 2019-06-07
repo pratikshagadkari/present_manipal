@@ -1,0 +1,54 @@
+<?xml version="1.0" encoding="utf-8"?>
+<android.support.constraint.ConstraintLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="300dp"
+    android:layout_height="400dp"
+    android:background="#000"
+    android:layout_gravity="center">
+
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:orientation="vertical"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent">
+
+        <EditText
+            android:id="@+id/a"
+            android:layout_width="match_parent"
+            android:focusable="false"
+            android:clickable="false"
+            android:layout_height="100dp"
+            android:ems="10" />
+
+        <EditText
+            android:id="@+id/b"
+            android:clickable="false"
+            android:layout_width="match_parent"
+            android:focusable="false"
+            android:layout_height="100dp"
+            android:ems="10" />
+
+
+        <EditText
+            android:id="@+id/c"
+            android:focusable="false"
+            android:clickable="false"
+            android:layout_width="match_parent"
+            android:layout_height="100dp"
+            android:ems="10"
+
+            />
+
+        <Button
+            android:id="@+id/close_dialog"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="close" />
+    </LinearLayout>
+</android.support.constraint.ConstraintLayout>

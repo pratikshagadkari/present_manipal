@@ -1,0 +1,38 @@
+<?xml version="1.0" encoding="utf-8"?>
+<manifest xmlns:android="http://schemas.android.com/apk/res/android"
+    package="manipal.com.present_manipal">
+
+    <uses-permission android:name="android.permission.INTERNET" />
+    <uses-permission android:name="android.permission.ACCESS_NETWORK_STATE" />
+
+    <application
+        android:allowBackup="true"
+        android:icon="@mipmap/ic_launcher"
+        android:label="Present Manipal"
+        android:roundIcon="@mipmap/ic_launcher_round"
+        android:supportsRtl="true"
+        android:theme="@style/AppTheme">
+        <activity android:name=".splash_screen">
+            <intent-filter>
+                <action android:name="android.intent.action.MAIN" />
+
+                <category android:name="android.intent.category.LAUNCHER" />
+            </intent-filter>
+        </activity>
+        <activity android:name=".choice_page" />
+        <activity android:name=".teacherlogin" />
+        <activity android:name=".studentlogin" />
+        <activity
+            android:name=".teacher_mainpage"
+            android:label="@string/title_activity_teacher_mainpage"
+            android:theme="@style/AppTheme" />
+        <activity
+            android:name=".student_mainpage"
+            android:label="@string/title_activity_student_mainpage"
+            android:theme="@style/AppTheme" />
+        <activity android:name=".support" />
+        <activity android:name=".teacher_registration" />
+        <activity android:name=".student_registration" />
+    </application>
+
+</manifest>

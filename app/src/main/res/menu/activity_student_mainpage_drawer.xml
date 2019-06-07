@@ -1,0 +1,46 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    tools:showIn="navigation_view">
+
+    <group android:checkableBehavior="single">
+        <!--<item
+            android:id="@+id/schedule"
+            android:icon="@drawable/ic_calendar"
+            android:title="My Schedule" />-->
+        <item
+            android:id="@+id/attendance"
+            android:icon="@drawable/ic_icon"
+            android:title="My Attendance" />
+        <item
+            android:id="@+id/update"
+            android:icon="@drawable/ic_a_mark"
+            android:title="Update Info" />
+        <item
+            android:id="@+id/contact"
+            android:icon="@drawable/ic_phone_contact"
+            android:title="Contact Faculty" />
+        <item
+            android:id="@+id/notification"
+            android:icon="@drawable/ic_security_code"
+            android:title="Enter Code" />
+    </group>
+
+    <item android:title="Other Activities">
+        <menu>
+            <item
+                android:id="@+id/about"
+                android:icon="@drawable/ic_icons8_about"
+                android:title="About Us" />
+            <item
+                android:id="@+id/support"
+                android:icon="@drawable/ic_support"
+                android:title="Contact Us" />
+            <item
+                android:id="@+id/logout"
+                android:icon="@drawable/ic_logout_90894"
+                android:title="Logout" />
+        </menu>
+    </item>
+</menu>

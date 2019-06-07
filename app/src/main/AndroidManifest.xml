@@ -1,0 +1,77 @@
+<?xml version="1.0" encoding="utf-8"?>
+<manifest xmlns:android="http://schemas.android.com/apk/res/android"
+    package="manipal.com.present_manipal">
+
+    <uses-permission android:name="android.permission.CHANGE_WIFI_STATE" />
+    <uses-permission android:name="android.permission.ACCESS_WIFI_STATE"/>
+    <uses-permission android:name="android.permission.CHANGE_WIFI_STATE"/>
+    <uses-permission android:name="android.permission.INTERNET" />
+    <uses-permission android:name="android.permission.ACCESS_NETWORK_STATE" />
+    <uses-permission android:name="android.permission.BLUETOOTH" />
+    <uses-permission android:name="android.permission.BLUETOOTH_ADMIN" />
+    <uses-permission android:name="android.permission.READ_EXTERNAL_STORAGE" />
+    <uses-permission android:name="android.permission.WRITE_EXTERNAL_STORAGE" />
+    <uses-permission android:name="android.permission.ACCESS_FINE_LOCATION" />
+    <uses-permission android:name="android.permission. ACCESS_COARSE_LOCATION" />
+
+    <application
+        android:allowBackup="true"
+        android:icon="@mipmap/ic_launcher"
+        android:label="Present Manipal"
+        android:roundIcon="@mipmap/ic_launcher_round"
+        android:supportsRtl="true"
+        android:theme="@style/AppTheme">
+        <activity android:name=".splash_screen">
+            <intent-filter>
+                <action android:name="android.intent.action.MAIN" />
+
+                <category android:name="android.intent.category.LAUNCHER" />
+            </intent-filter>
+        </activity>
+        <activity android:name=".choice_page" />
+        <activity android:name=".teacherlogin" />
+        <activity android:name=".studentlogin" />
+        <activity
+            android:name=".teacher_mainpage"
+            android:label="@string/title_activity_teacher_mainpage"
+            android:theme="@style/AppTheme" />
+        <activity
+            android:name=".student_mainpage"
+            android:label="@string/title_activity_student_mainpage"
+            android:theme="@style/AppTheme" />
+        <activity android:name=".support" />
+        <activity android:name=".teacher_registration" />
+        <activity android:name=".student_registration" />
+        <activity android:name=".manage_attendance" />
+        <activity android:name=".display_class" />
+        <activity android:name=".view_att_stud" />
+        <activity android:name=".update_info_students" />
+        <activity android:name=".location" />
+        <activity android:name=".about_us" />
+        <activity android:name=".string_receive" />
+        <activity android:name=".contact_teachers" />
+        <activity android:name=".update_info_teachers" />
+        <activity android:name=".contact_students" />
+        <activity android:name=".forgot_password_student" />
+        <activity android:name=".forgot_password_teacher" />
+        <activity android:name=".view_attendance_teacher" />
+        <activity android:name=".display_class_attendance" />
+        <activity android:name=".display_class_normal" />
+        <activity android:name=".disp_att_det" />
+        <activity android:name=".app_tutorial" />
+
+        <meta-data
+            android:name="io.fabric.ApiKey"
+            android:value="6ff0500248fe7feacd37122a35b33adb0fd0cf1c" />
+
+        <activity android:name=".disp_free_class" />
+        <activity android:name=".manage_class" />
+        <service
+            android:name=".MyFirebaseInstanceIDService">
+            <intent-filter>
+                <action android:name="com.google.firebase.INSTANCE_ID_EVENT"/>
+            </intent-filter>
+        </service>
+    </application>
+
+</manifest>
